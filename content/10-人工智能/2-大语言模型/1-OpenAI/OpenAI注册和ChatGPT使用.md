@@ -2,7 +2,7 @@
 title: OpenAI的注册和使用
 draft: 
 tags:
-  - AIGC
+  - aigc
   - openAI
   - chatGPT
 ---

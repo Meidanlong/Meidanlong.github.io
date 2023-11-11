@@ -1,6 +1,6 @@
 ---
 title: HeyGen简介
 tags:
-  - AIGC
+  - aigc
 ---
 ![[i have a dream.mp4]]

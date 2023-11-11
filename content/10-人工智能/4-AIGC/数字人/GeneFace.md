@@ -1,7 +1,7 @@
 ---
 title: GeneFace环境搭建
 tags:
-  - AIGC
+  - aigc
 ---
 # 自研路线
 ## 一、自研流程图
