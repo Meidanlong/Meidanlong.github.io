@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>📙 MeiBlog</title>
+      <link>https://meidanlong.com</link>
+      <description>Last 10 notes on 📙 MeiBlog</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>音频mp3和amr格式转换</title>
+    <link>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/1-Java/java%E6%93%8D%E4%BD%9C%E9%9F%B3%E9%A2%91mp3%E5%92%8Camr%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2</link>
+    <guid>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/1-Java/java%E6%93%8D%E4%BD%9C%E9%9F%B3%E9%A2%91mp3%E5%92%8Camr%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2</guid>
+    <description>一、问题 § 目前大部分java方式操作音频格式转换的都需要安装和配置ffmpeg文件，否则可能会报编/解码器丢失的错误。该方式在本机执行还可以，但是真正运用到生产，由于涉及到扩缩容等问题，真要在生产环境再手动安装ffmpeg就很不方便。该种方式可参考https://github.com/dadiyang/jave 这里推荐一种配置pom依赖的方式解决音频文件转换问题，亲测可用。 二、添加依赖 § pom.</description>
+    <pubDate>Fri, 10 Nov 2023 06:51:36 GMT</pubDate>
+  </item><item>
+    <title>基本数据类型</title>
+    <link>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/2-Python/Python%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B</link>
+    <guid>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/2-Python/Python%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B</guid>
+    <description> 一、数字 § 二、组 § 1、序列 § 1.1、字符串 § 1.2、列表 § 4、符号 § 在Python中，*符号有两个主要的用途： 作为数学运算符，表示乘法。例如，2 * 3的结果是6。 在函数调用和定义中，表示可变数量的位置参数。你可以使用*来将一个列表或元组的元素作为位置参数传递给一个函数，或者在函数定义中接收任意数量的位置参数。 举例： 函数调用def greet(greeting, name): print(f&quot;{greeting}, {name}!&quot;) params = [&quot;Hello&quot;, &quot;Alice&quot;] greet(*params) # 输出：Hello, Alice! 函数定义def print_numbers(*args): for number in args: print(number) print_numbers(1, 2, 3, 4, 5) # 输出： # 1 # 2 # 3 # 4 # 5.</description>
+    <pubDate>Fri, 10 Nov 2023 06:51:36 GMT</pubDate>
+  </item><item>
+    <title>切换Git远程仓库</title>
+    <link>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/3-Git/%E5%88%87%E6%8D%A2Git%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93</link>
+    <guid>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/3-Git/%E5%88%87%E6%8D%A2Git%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93</guid>
+    <description>一、切换远程仓库地址 § 1、直接修改远程路径 § git remote set-url origin URL 2、先删除再添加 § # 删除现有库 git remote rm origin # 添加新库 git remote add origin url 二、查看远程仓库地址 § git remote -v .</description>
+    <pubDate>Fri, 10 Nov 2023 06:51:36 GMT</pubDate>
+  </item><item>
+    <title>致命错误：位于未检出的子模组</title>
+    <link>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/3-Git/%E8%87%B4%E5%91%BD%E9%94%99%E8%AF%AF%EF%BC%9A%E4%BD%8D%E4%BA%8E%E6%9C%AA%E6%A3%80%E5%87%BA%E7%9A%84%E5%AD%90%E6%A8%A1%E7%BB%84</link>
+    <guid>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/3-Git/%E8%87%B4%E5%91%BD%E9%94%99%E8%AF%AF%EF%BC%9A%E4%BD%8D%E4%BA%8E%E6%9C%AA%E6%A3%80%E5%87%BA%E7%9A%84%E5%AD%90%E6%A8%A1%E7%BB%84</guid>
+    <description>一、表象 § 二、解决 § # 清除git缓存 git rm -r --cache .</description>
+    <pubDate>Fri, 10 Nov 2023 06:51:36 GMT</pubDate>
+  </item><item>
+    <title>致命错误：拒绝合并无关的历史</title>
+    <link>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/3-Git/%E8%87%B4%E5%91%BD%E9%94%99%E8%AF%AF%EF%BC%9A%E6%8B%92%E7%BB%9D%E5%90%88%E5%B9%B6%E6%97%A0%E5%85%B3%E7%9A%84%E5%8E%86%E5%8F%B2</link>
+    <guid>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/3-Git/%E8%87%B4%E5%91%BD%E9%94%99%E8%AF%AF%EF%BC%9A%E6%8B%92%E7%BB%9D%E5%90%88%E5%B9%B6%E6%97%A0%E5%85%B3%E7%9A%84%E5%8E%86%E5%8F%B2</guid>
+    <description>一、表象 § 二、解决 § git pull origin master --allow-unrelated-histories.</description>
+    <pubDate>Fri, 10 Nov 2023 06:51:36 GMT</pubDate>
+  </item><item>
+    <title>远程解包失败 index-pack failed</title>
+    <link>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/3-Git/%E8%BF%9C%E7%A8%8B%E8%A7%A3%E5%8C%85%E5%A4%B1%E8%B4%A5-index-pack-failed</link>
+    <guid>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/3-Git/%E8%BF%9C%E7%A8%8B%E8%A7%A3%E5%8C%85%E5%A4%B1%E8%B4%A5-index-pack-failed</guid>
+    <description>一、现象 § 二、原因 § Git在解压缩（解包）对象时出现了异常，导致推送失败。 三、解决 § 清除本地缓存git gc --prune=now 再次执行后续命令即可。.</description>
+    <pubDate>Fri, 10 Nov 2023 06:51:36 GMT</pubDate>
+  </item><item>
+    <title>错误：无法推送一些引用到...</title>
+    <link>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/3-Git/%E9%94%99%E8%AF%AF%EF%BC%9A%E6%97%A0%E6%B3%95%E6%8E%A8%E9%80%81%E4%B8%80%E4%BA%9B%E5%BC%95%E7%94%A8%E5%88%B0...</link>
+    <guid>https://meidanlong.com/1-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/3-Git/%E9%94%99%E8%AF%AF%EF%BC%9A%E6%97%A0%E6%B3%95%E6%8E%A8%E9%80%81%E4%B8%80%E4%BA%9B%E5%BC%95%E7%94%A8%E5%88%B0...</guid>
+    <description>一、表象 § 二、解决 § 同致命错误：拒绝合并无关的历史.</description>
+    <pubDate>Fri, 10 Nov 2023 06:51:36 GMT</pubDate>
+  </item><item>
+    <title>OpenAI的注册和使用</title>
+    <link>https://meidanlong.com/10-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/2-%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/1-OpenAI/OpenAI%E6%B3%A8%E5%86%8C%E5%92%8CChatGPT%E4%BD%BF%E7%94%A8</link>
+    <guid>https://meidanlong.com/10-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/2-%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/1-OpenAI/OpenAI%E6%B3%A8%E5%86%8C%E5%92%8CChatGPT%E4%BD%BF%E7%94%A8</guid>
+    <description>一、注册OpenAI § 注册地址 二、购买虚拟手机号 § SMS-Activate是在线接受短信的虚拟号码服务 1、注册虚拟手机账户 § 使用长期有效的邮箱进行注册 2、激活账号 § 用户下方选择充值，支付宝充值1美元 左侧选择openAI服务，选择印度（价格更低） 三、OpenAI验证手机号 § 虚拟手机号获取短信，选择激活页面等待短信 四、登陆成功 § 五、使用ChatGPT § chatGPT地址 六、获取API Keys § 点击右上角个人用户—View API keys 总结 § 以上主要内容： 购买虚拟手机号 注册OpenAI账号 简单使用ChatGPT .</description>
+    <pubDate>Fri, 10 Nov 2023 06:51:36 GMT</pubDate>
+  </item><item>
+    <title>Stable Diffusion扩散模型</title>
+    <link>https://meidanlong.com/10-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/3-%E7%A8%B3%E5%AE%9A%E6%89%A9%E6%95%A3/1-Stable-Diffusion/Stable-Diffusion%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B</link>
+    <guid>https://meidanlong.com/10-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/3-%E7%A8%B3%E5%AE%9A%E6%89%A9%E6%95%A3/1-Stable-Diffusion/Stable-Diffusion%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B</guid>
+    <description>扩散模型（diffusion model）包括两个过程：前向过程（forward process）和反向过程（reverse process） 无论是前向过程还是反向过程都是一个参数化的马尔可夫链（Markov chain） 简单地说，扩散模型的工作原理是通过连续添加高斯噪声来破坏训练数据，然后学习通过反转这种噪声过程来恢复数据。 扩散过程，从字面上理解就是，像分子运动一样，一点点改变 放到图像里就是，最开始噪声一般的图像，它的像素值一点点改变，或者说叫”运动“，直到最后改变成了有意义的图像 扩散模型由两部分构成：学习过程，推理过程，上面的去噪过程就是推理过程 一、学习过程 § 首先我们拿到要学习的图片I 然后用固定的方法添加一个噪声 N ，并把这个噪声 N 保存下来 把噪声 N 扔给我们的神经网络，神经网络会返回一个同尺寸的噪声 PN 比较神经网络预测的噪声 PN 和 N 数学尺度上的”差距” ，这个差距我们记为 D 把这个差距 D 扔给一个迭代器，它会告诉神经网络应该怎么调整它里面众多的神经参数来缩小 N 和 PN的差距。 最后重复不断这个过程，直到 D 的值足够小 二、推理过程 § 首先我们随机生成一个噪声 RD 把 RD 喂给已经学习好的 神经网络 得到神经网络给出的噪声 PD 用原始的噪声 RD根据 PD做运动，得到预测的图片I。这里的运动可以简单理解为原始噪声RD的数值减去预测噪声PD。实际上是做了一些数学变化，而非简单的加减。 判断做完运动得到的预测I是否符合我们的预期，如果符合，那就完成预测啦！否则继续6 如果运动还不够，则刚刚得到的预测图片I成为新的噪声RD，进行下一轮运动，直到得到我们需要的图片 请注意，我们到目前为止描述的扩散过程在不使用任何文本数据的情况下生成图像。因此，如果我们部署这个模型，它将生成漂亮的图像，但我们无法控制它是金字塔还是猫或其他任何东西的图像 .</description>
+    <pubDate>Sat, 11 Nov 2023 07:43:51 GMT</pubDate>
+  </item><item>
+    <title>Stable Diffusion简介</title>
+    <link>https://meidanlong.com/10-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/3-%E7%A8%B3%E5%AE%9A%E6%89%A9%E6%95%A3/1-Stable-Diffusion/Stable-Diffusion%E7%AE%80%E4%BB%8B</link>
+    <guid>https://meidanlong.com/10-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/3-%E7%A8%B3%E5%AE%9A%E6%89%A9%E6%95%A3/1-Stable-Diffusion/Stable-Diffusion%E7%AE%80%E4%BB%8B</guid>
+    <description></description>
+    <pubDate>Sat, 11 Nov 2023 03:45:05 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
